@@ -35,7 +35,7 @@ contains no null or negative values.
 ## Running the Project
 
 1. Ensure your PostgreSQL server is running and the `dinner` database is accessible.
-2.
+
 2. Run the dbt models:
 
  ```bash
