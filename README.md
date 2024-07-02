@@ -8,7 +8,7 @@ recipe.
 
 ```
 
-quick_dbt_demo/
+dbt_dinner/
 ├── models/
 │ └── combined_recipes.sql
 ├── tests/
