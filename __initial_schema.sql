@@ -1,0 +1,39 @@
+-- Create recipes
+INSERT INTO recipes (id, title, description, cooking_time, created_at) VALUES
+(1, 'Chocolate Cake', 'A rich and moist chocolate cake.', 60, '2023-07-01 12:00:00'),
+(2, 'Spaghetti Carbonara', 'A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.', 30, '2023-07-02 12:00:00'),
+(3, 'Chicken Curry', 'A flavorful and spicy chicken curry.', 45, '2023-07-03 12:00:00'),
+(4, 'Vegetable Stir Fry', 'A quick and healthy vegetable stir fry.', 20, '2023-07-04 12:00:00');
+
+
+-- Create step wise instructions for each recipe
+INSERT INTO instructions (id, recipe_id, step_number, instruction) VALUES
+(1, 1, 1, 'Preheat oven to 350 degrees F (175 degrees C).'),
+(2, 1, 2, 'Grease and flour two nine-inch round pans.'),
+(3, 1, 3, 'In a large bowl, stir together the sugar, flour, cocoa, baking powder, baking soda, and salt.'),
+(4, 1, 4, 'Add the eggs, milk, oil, and vanilla, and mix for 2 minutes on medium speed of mixer.'),
+(5, 1, 5, 'Stir in the boiling water last. Batter will be thin. Pour evenly into the prepared pans.'),
+(6, 1, 6, 'Bake 30 to 35 minutes in the preheated oven, until the cake tests done with a toothpick.'),
+(7, 1, 7, 'Cool in the pans for 10 minutes, then remove to a wire rack to cool completely.'),
+
+(8, 2, 1, 'Bring a large pot of salted water to a boil. Add spaghetti and cook for 8 to 10 minutes or until al dente; drain.'),
+(9, 2, 2, 'In a medium bowl, whisk together eggs and Parmesan cheese.'),
+(10, 2, 3, 'Heat a large skillet over medium heat. Add pancetta and cook until crisp, about 5 minutes.'),
+(11, 2, 4, 'Add garlic to the skillet and cook for 1 minute.'),
+(12, 2, 5, 'Remove the skillet from heat and add the hot, drained spaghetti.'),
+(13, 2, 6, 'Quickly pour in the egg and cheese mixture, tossing to coat the spaghetti.'),
+(14, 2, 7, 'Season with salt and pepper to taste and serve immediately.'),
+
+(15, 3, 1, 'Heat oil in a large pot over medium heat.'),
+(16, 3, 2, 'Add onions and cook until soft and translucent, about 5 minutes.'),
+(17, 3, 3, 'Add garlic, ginger, and spices, and cook for another 2 minutes.'),
+(18, 3, 4, 'Add chicken pieces and cook until lightly browned, about 5 minutes.'),
+(19, 3, 5, 'Stir in tomatoes and coconut milk.'),
+(20, 3, 6, 'Bring to a simmer, then reduce heat to low and cook for 30 minutes, stirring occasionally.'),
+(21, 3, 7, 'Season with salt and pepper to taste and serve with rice.'),
+
+(22, 4, 1, 'Heat oil in a large skillet over medium-high heat.'),
+(23, 4, 2, 'Add garlic and cook for 1 minute.'),
+(24, 4, 3, 'Add vegetables and cook, stirring frequently, until tender, about 5-7 minutes.'),
+(25, 4, 4, 'Stir in soy sauce and cook for another 1-2 minutes.'),
+(26, 4, 5, 'Serve over rice or noodles.');
